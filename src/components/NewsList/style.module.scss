@@ -1,0 +1,27 @@
+.cardBox {
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding:5rem;
+  li {
+    padding: 2rem;
+    border: 1px black solid;
+    p {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 38px;
+      text-align: left;
+    }
+    a {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 38px;
+      text-align: left;
+      color: #0087d3;
+    }
+  }
+}
