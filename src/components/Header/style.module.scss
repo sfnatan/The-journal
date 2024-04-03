@@ -4,6 +4,14 @@
   height: 5rem;
   align-items: center;
   padding: 0 5rem;
-
-  
+  button {
+    cursor: pointer;
+    &:hover {
+      background-color: #3e2594;
+    }
+    &:active {
+      transform: scale(0.98);
+      box-shadow: inset 0 0 5px #000;
+    }
+  }
 }

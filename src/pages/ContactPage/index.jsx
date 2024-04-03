@@ -1,11 +1,15 @@
-import { DefaultTemplate } from "../../components/DefaultTamplete"
+import { DefaultTemplate } from "../../components/DefaultTamplete";
 
 export const ContactPage = () => {
-    return (
-        <>
-        <DefaultTemplate>
-            
-        </DefaultTemplate>
-        </>
-    )
-}
+  return (
+    <>
+      <DefaultTemplate>
+        <section>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </section>
+      </DefaultTemplate>
+    </>
+  );
+};

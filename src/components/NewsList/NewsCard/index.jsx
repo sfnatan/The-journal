@@ -2,7 +2,6 @@ import { Link, useParams } from "react-router-dom";
 
 export const NewsCard = ({ cardList }) => {
 
-    const {id} =  useParams()
 
   return (
     <>
