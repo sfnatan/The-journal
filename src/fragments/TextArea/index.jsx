@@ -1,7 +1,10 @@
-export const TextArea = () => {
+import { forwardRef } from "react";
+
+export const TextArea = forwardRef(({...rest}, ref) => {
   return (
     <>
-      <textarea name="" id="" cols="30" rows="10"></textarea>{" "}
+      <textarea {...rest} ref={ref}></textarea>
+      {/* <textarea ></textarea> */}
     </>
   );
-};
+});

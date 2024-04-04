@@ -2,7 +2,7 @@ export const Select = () => {
 
     return(
         <>
-        <select name="" id="">
+        <select >
             <option value=""></option>
         </select>
         </>

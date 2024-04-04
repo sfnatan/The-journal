@@ -4,6 +4,7 @@ import { ContactPage } from "../pages/ContactPage";
 import { PostPage } from "../pages/PostPage";
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
+
 export const RoutesMain = () => {
   const [loading, setLoading] = useState(false)
   const [listNews, setListNews] = useState([]);

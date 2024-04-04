@@ -1,8 +1,10 @@
-export const Input = () => {
+import { forwardRef } from "react"
+
+export const Input = forwardRef(({...rest}, ref) => {
 
     return(
         <>
-        <input type="text" />
+        <input {...rest} ref={ref}/>
         </>
     )
-}
+})
